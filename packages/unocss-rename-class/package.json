@@ -1,0 +1,28 @@
+{
+    "name": "@awuxtron/unocss-rename-class",
+    "version": "0.0.1-alpha",
+    "description": "Rename class names to shorten them for reducing the size of CSS files",
+    "private": true,
+    "author": {
+        "name": "Awuxtron",
+        "email": "contact@awuxtron.dev",
+        "url": "https://awuxtron.dev"
+    },
+    "license": "MIT",
+    "keywords": [
+        "unocss",
+        "unocss-transformer"
+    ],
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@unocss/core": "^0.39.3"
+    },
+    "devDependencies": {
+        "esno": "^0.16.3"
+    }
+}
